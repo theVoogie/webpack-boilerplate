@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/voogieJames/webpack-hot-pot#readme",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-hot-loader": "^4.3.12",
     "webpack": "^4.24.0",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
