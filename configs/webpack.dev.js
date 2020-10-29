@@ -1,8 +1,8 @@
-const webpack = require('webpack')
-const { merge } = require('webpack-merge')
+const webpack = require('webpack');
+const { merge } = require('webpack-merge');
 
-const paths = require('./paths')
-const base = require('./webpack.base.js')
+const paths = require('./paths');
+const base = require('./webpack.base.js');
 
 module.exports = merge(base, {
   mode: 'development',
@@ -21,4 +21,4 @@ module.exports = merge(base, {
     // Only update what has changed on hot reload
     new webpack.HotModuleReplacementPlugin(),
   ],
-})
+});
