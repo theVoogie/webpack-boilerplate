@@ -1,0 +1,19 @@
+{
+  "extends": "./configs/dev.tsconfig.json",
+  "compileOnSave": true,
+  "include": [
+    "./src/**/*",
+    "./configs/**/*.js",  
+    "./public/manifest.json",
+    "./.eslintrc.js",
+    "./.eslintrc.dist.js",
+    "./package.json", 
+    "styleguide.config.js"
+  ],
+  "exclude": [
+    "./configs/**/*.json",
+    "node_modules",
+    "./tsconfig.json",
+    "tsconfig.dist.json",
+  ]
+}
