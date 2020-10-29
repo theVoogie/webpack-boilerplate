@@ -77,6 +77,8 @@ module.exports = {
     'react/no-unused-state': 'off',
     'react/jsx-curly-newline': 'off',
     'no-use-before-define': 'off',
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
     'no-restricted-globals': 'off',
     'no-param-reassign': 'off',
     'class-methods-use-this': 'off',
